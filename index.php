@@ -1,33 +1,7 @@
-<!doctype html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<link rel="shortcut icon" href="skylyy.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	<title>Sky Lyy | UX Design Portfolio</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=no">
-	<link rel='stylesheet' href="styles/sky_style.css">
-  <link rel="stylesheet" type="text/css" href="styles/animate.css">
-	<script src="js/jquery.min.js"></script>
-	<script src="js/responsive-nav.js"></script>
+<?php include 'header.php'; ?>
 
-</head>
 
-<body>
-
-<div id="container">
-    <header>
-      <h1>Welcome, my name is <b>Skyler</b>. </h1>
-  </header>
-
-	<nav class="nav-collapse">
-		<ul>
-			<li><a href="http://www.skylyy.com/">Home</a></li>
-			<li><a href="#main1">About</a></li>
-			<li><a href="#main3">Projects</a></li>
-      <li><a href="#foot_content">Contact</a></li>
-	 	</ul>
-	</nav>
+<?php include 'menu.php';?>
 
 	<div id="main1">
 <h2 class="sec">About</h2>
@@ -64,7 +38,7 @@
           <p class="lead">I created a travel site for my web design final with a slide menu and transitions all done in CSS3 and HTML5 with original graphics. The use of responsive design is the biggest factor in having an effective website.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="images/port_img/final_desk.png" alt="Final - Travel Site">
+          <img class="featurette-image img-responsive" src="<?php echo $theme_path; ?>/images/port_img/final_desk.png" alt="Final - Travel Site">
         </div>
       </div>
 </div>
@@ -72,7 +46,7 @@
 <div class="righty">
       <div class="row-featurette">
         <div class="col-md-5-mid-img">
-          <img class="featurette-image img-responsive" src="images/port_img/midterm_desk.png" alt="Midterm - Photography Site">
+          <img class="featurette-image img-responsive" src="<?php echo $theme_path; ?>/images/port_img/midterm_desk.png" alt="Midterm - Photography Site">
         </div>
         <div class="col-md-7-right">
           <h2 class="featurette-heading">Web Design I - Midterm <span class="text-muted"><br>October, 2014</span></h2>
@@ -88,7 +62,7 @@
           <p class="lead">This was a CD redesign project I did in the Design Studies program. The logo was done with pencil crayon, pastels, and the pen tool in Adobe Illustrator. This project included printing and mounting the CD label, a front, back, spine, inside tray and door graphics.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="images/port_img/floyd_redesign_desk.png" alt="Pink Floyd">
+          <img class="featurette-image img-responsive" src="<?php echo $theme_path; ?>/images/port_img/floyd_redesign_desk.png" alt="Pink Floyd">
         </div>
       </div>
 </div>
@@ -96,7 +70,7 @@
 <div class="righty">
       <div class="row-featurette">
         <div class="col-md-5-mid-img">
-          <img class="featurette-image img-responsive" src="images/port_img/personal_blog_desk.png" alt="Movable Type">
+          <img class="featurette-image img-responsive" src="<?php echo $theme_path; ?>/images/port_img/personal_blog_desk.png" alt="Movable Type">
         </div>
         <div class="col-md-7-right">
           <h2 class="featurette-heading">Personal Blog <span class="text-muted"><br>2013</span></h2>
@@ -111,61 +85,5 @@
 		Feel free to drop me a line sometime.</p>
 
 </div><!--div3-->
-<footer>
-	<div id="foot_content"><a href="#topp" class="scrollup"></a> 
-	
-	<a href="http://www.instagram.com/skyyskybone/">instagram</a> | <a href="https://www.twitter.com/Skyyskybone">twitter</a> 
-</div><!--content-->
-</footer>
-</div><!--container-->
 
-<script>
-		var nav = responsiveNav(".nav-collapse");
-	</script>
-
-  <script src="js/vpc.js"></script>
-<script type="text/javascript">
-jQuery(document).ready(function() {
-  jQuery('.lead').addClass("hidden").viewportChecker({
-      classToAdd: 'visible animated fadeInDown', // Class to add to the elements when they are visible
-      offset: 100    
-     });   
-});      
-
-jQuery(document).ready(function() {
-  jQuery('.lefty').addClass("hidden").viewportChecker({
-      classToAdd: 'visible animated fadeInLeft', // Class to add to the elements when they are visible
-      offset: 100    
-     });   
-});     
-
-jQuery(document).ready(function() {
-  jQuery('.righty').addClass("hidden").viewportChecker({
-      classToAdd: 'visible animated fadeInRight', // Class to add to the elements when they are visible
-      offset: 100    
-     });   
-});       
-</script>
-
-<script>
-  $(document).ready(function () {
-      $(window).scroll(function () {
-          if ($(this).scrollTop() > 100) {
-              $('.scrollup').fadeIn();
-          } else {
-              $('.scrollup').fadeOut();
-          }
-      });
-      $('.scrollup').click(function () {
-          $("html, body").animate({
-              scrollTop: 0
-          }, 600);
-          return false;
-      });
-      var el = $(".example"),
-    bgWidth = 35,
-    bgHeight = 35;
-  });
-</script>
-</body>
-</html>
+<?php include 'footer.php'; ?>
