@@ -13,10 +13,6 @@ $theme_path		= get_stylesheet_directory_uri();
 
 	// Add a customize link under appearance
 	add_action ('admin_menu', 'themedemo_admin');
-	function themedemo_admin() {
-		// add the Customize link to the admin menu
-		add_theme_page( 'Customize', 'edit_theme_options', 'customize.php' );
-	}
 	
 	add_action('customize_register', 'framework_customize');
 	function framework_customize($wp_customize) {
