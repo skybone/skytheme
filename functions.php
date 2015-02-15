@@ -81,7 +81,11 @@
 
 		add_action('init', 'skylyy_post_types');
 
+		add_filter( "the_excerpt", "add_class_to_excerpt" );
 
+		function add_class_to_excerpt( $excerpt ) {
+		    return str_replace('<p', '<p class="lead"', $excerpt);
+		}
 
 
 ?>
