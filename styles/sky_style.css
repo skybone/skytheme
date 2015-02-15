@@ -633,7 +633,7 @@ header {
 }
 
 .pull-right {
-  float: left !important;
+  float: left;
 }
 
 .text-muted {
@@ -1213,4 +1213,11 @@ header {
     display: none;
   }
 }
+
+
+  @media only screen and (max-width: 640px) {
+    .pull-right {
+      float: left;
+    }
+  }
 
