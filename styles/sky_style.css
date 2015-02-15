@@ -500,6 +500,10 @@ footer a:hover {
   list-style: none;
 }
 
+.pull-right {
+  float: right;
+}
+
 .js .nav-collapse {
   clip: rect(0 0 0 0);
   max-height: 0;
@@ -626,6 +630,10 @@ header {
 
 .col-md-5 {
   width: 100%;
+}
+
+.pull-right {
+  float: left;
 }
 
 .text-muted {

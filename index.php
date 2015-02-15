@@ -65,7 +65,7 @@
         <div class="righty">
             <div class="row-featurette">
                        
-             <div class="col-md-5 pull-right" style="float:right">
+             <div class="col-md-5 pull-right">
                 <?php the_post_thumbnail('post-thumbnail', array( 'class' => "featurette-image img-responsive")); ?>
               </div>
               <div class="col-md-7">
