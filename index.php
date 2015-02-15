@@ -33,32 +33,53 @@
   <h2 class="cent">Recent Projects</h2>
 
       <?php
-          $args = array(
-              'post_type' => 'project',
-              'posts_per_page' => 3,
-          );
-  
-          $query = new WP_Query( $args );
-          while($query->have_posts()) : $query->the_post();
-          $project_count = 0;
-          $project_count++;
-      ?>
-  <div class="lefty">
-      <div class="row-featurette">
 
-        <div class="col-md-7">
-          <h2 class="featurette-heading"><?php the_title();?> <span class="text-muted"><br>December, 2014</span></h2>
-          <p class="lead"><?php the_excerpt();?></p>
+        $project_count = 0;
+            $args = array(
+                'post_type' => 'project',
+                'posts_per_page' => 3,
+            );
+    
+            $query = new WP_Query( $args );
+            while($query->have_posts()) : $query->the_post();
+          
+        if ($project_count == 0 || $project_count == 2 ) { ?>
+        
+        <div class="lefty">
+            <div class="row-featurette">
+
+              <div class="col-md-7">
+                <h2 class="featurette-heading"><?php the_title();?> <span class="text-muted"><br>December, 2014</span></h2>
+                <p class="lead"><?php the_excerpt();?></p>
+              </div>
+              <div class="col-md-5">
+                <?php the_post_thumbnail('post-thumbnail', array( 'class' => "featurette-image img-responsive")); ?>
+              </div>
+            </div>
         </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="<?php echo $theme_path; ?>/images/port_img/final_desk.png" alt="Final - Travel Site">
-        </div>
-      </div>
-  </div>
 
       <hr class="featurette-divider">
 
-<?php endwhile; ?>
+      <?php } else { ?>
+
+        <div class="righty">
+            <div class="row-featurette">
+        
+              <div class="col-md-5-mid-img">
+                <?php the_post_thumbnail('post-thumbnail', array( 'class' => "featurette-image img-responsive")); ?>
+              </div>
+              <div class="col-md-7-right">
+                <h2 class="featurette-heading"><?php the_title();?> <span class="text-muted"><br>December, 2014</span></h2>
+                <p class="lead"><?php the_excerpt();?></p>
+              </div>
+            </div>
+          </div>
+
+      <hr class="featurette-divider">
+
+  <?php  } ?>
+  
+  <?php $project_count++; endwhile; ?>
 
 		<h2 class="cent2">Contact</h2>
 

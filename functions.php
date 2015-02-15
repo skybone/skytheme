@@ -1,6 +1,7 @@
 <?php 
 
-$theme_path		= get_stylesheet_directory_uri();
+	$theme_path		= get_stylesheet_directory_uri();
+	add_theme_support( 'post-thumbnails' );
 
 	/*
 	************************************************************************ 
@@ -43,7 +44,7 @@ $theme_path		= get_stylesheet_directory_uri();
 		    ));
 
 		 register_post_type('project', array(	
-		 			'label' => 'Project',
+		 			'label' => 'Projects',
 		 			'description' => '',
 		 			'public' => true,
 		 			'show_ui' => true,
