@@ -300,6 +300,7 @@ header {
   margin-top: 10px;
   font-size: 1.7em;
   line-height: 1.4em;
+  clear: both;
   margin-left: 2.5%;
   color: #111111;
   font-family: 'vollkornregular';
