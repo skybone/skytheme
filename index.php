@@ -42,6 +42,7 @@
     
             $query = new WP_Query( $args );
             while($query->have_posts()) : $query->the_post();
+            $date = get_the_date('l, F j, Y');
           
         if ($project_count == 0 || $project_count == 2 ) { ?>
         
@@ -49,7 +50,7 @@
             <div class="row-featurette">
 
               <div class="col-md-7">
-                <h2 class="featurette-heading"><?php the_title();?> <span class="text-muted"><br><?php the_date('l, F j, Y');?></span></h2>
+                <h2 class="featurette-heading"><?php the_title();?> <span class="text-muted"><br><?php echo $date;?></span></h2>
                 <?php the_excerpt();?>
               </div>
               <div class="col-md-5">
@@ -69,7 +70,7 @@
                 <?php the_post_thumbnail('post-thumbnail', array( 'class' => "featurette-image img-responsive")); ?>
               </div>
               <div class="col-md-7">
-                <h2 class="featurette-heading"><?php the_title();?> <span class="text-muted"><br><?php the_date('l, F j, Y');?></span></h2>
+                <h2 class="featurette-heading"><?php the_title();?> <span class="text-muted"><br><?php echo $date;?></span></h2>
                 <?php the_excerpt();?>
               </div>
 
