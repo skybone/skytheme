@@ -5,27 +5,27 @@
 
 	<div id="main1">
 <h2 class="sec">About</h2>
-	<p class="cont">	I am a full time student in the Interactive Media Design program at Algonquin College.
-	</p>
-	<p class="cont">
-		I specialize in mobile web development with focus on responsive and eyepleasing user interface design allowing full functionality across all device sizes. 
-	</p>
+  <p class="cont">  I am a full time student in the Interactive Media Design program at Algonquin College.
+  </p>
+  <p class="cont">
+    I specialize in mobile web development with a focus on responsive and eyepleasing user experience design allowing full functionality across all devices. 
+  </p>
 </div><!--main1-->
 
 <div id="main2">
-	<h2 class="sec">Services</h2>
-	<p class="pdent">
-		
-			HTML5 / CSS3<br>
-			JavaScript<br>
-			PHP / mySQL<br>
-			Server hosting solutions<br>
-			Wordpress / Blog software<br>
-			Flash animation / ActionScript<br>
-			Graphic design / Print media<br>
-			Photography / Video
-	
-	</p>
+  <h2 class="sec">Services</h2>
+  <p class="pdent">
+    
+      HTML5 / CSS3<br>
+      JavaScript / jQuery<br>
+      PHP / mySQL<br>
+      Wordpress / Blog software<br>
+      Flash animation / ActionScript<br>
+      Graphic design / Print media<br>
+      Photography / Video<br>
+      Motion Graphics
+  
+  </p>
 </div><!--main2-->
 
 <div id="main3">
