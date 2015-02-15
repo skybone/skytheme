@@ -633,7 +633,7 @@ header {
 }
 
 .pull-right {
-  float: left;
+  float: left !important;
 }
 
 .text-muted {
