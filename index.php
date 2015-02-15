@@ -50,7 +50,7 @@
 
               <div class="col-md-7">
                 <h2 class="featurette-heading"><?php the_title();?> <span class="text-muted"><br>December, 2014</span></h2>
-                <p class="lead"><?php the_excerpt();?></p>
+                <?php the_excerpt();?>
               </div>
               <div class="col-md-5">
                 <?php the_post_thumbnail('post-thumbnail', array( 'class' => "featurette-image img-responsive")); ?>
@@ -70,7 +70,7 @@
               </div>
               <div class="col-md-7-right">
                 <h2 class="featurette-heading"><?php the_title();?> <span class="text-muted"><br>December, 2014</span></h2>
-                <p class="lead"><?php the_excerpt();?></p>
+                <?php the_excerpt();?>
               </div>
             </div>
           </div>
