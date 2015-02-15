@@ -64,14 +64,16 @@
 
         <div class="righty">
             <div class="row-featurette">
-        
-              <div class="col-md-5-mid-img">
+                       
+             <div class="col-md-5 pull-right" style="float:right">
                 <?php the_post_thumbnail('post-thumbnail', array( 'class' => "featurette-image img-responsive")); ?>
               </div>
-              <div class="col-md-7-right">
+              <div class="col-md-7">
                 <h2 class="featurette-heading"><?php the_title();?> <span class="text-muted"><br><?php the_date('l, F j, Y');?></span></h2>
                 <?php the_excerpt();?>
               </div>
+
+
             </div>
           </div>
 
