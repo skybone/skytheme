@@ -180,7 +180,6 @@ b  {
 	width: 100%;
 	letter-spacing: 0.06em;
 	background: #ffffff;
-  clear: both;
 	height: auto;
 }
 
@@ -287,6 +286,7 @@ header {
   line-height: 1.4em;
   margin: 0 !important;
   color: #222;
+  clear: both;
   padding-left: 2.5%;
   width: 95%;
 }
@@ -303,6 +303,7 @@ header {
   line-height: 1.4em;
   margin-left: 2.5%;
   color: #111111;
+  clear: both;
   font-family: 'vollkornregular';
   padding-left: 0 !important;
   letter-spacing: -1px;
