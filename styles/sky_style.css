@@ -154,7 +154,7 @@ h2 {
   -moz-transition: 0.8s ease-in-out;
   -o-transition: 0.8s ease-in-out;
 	line-height: 1.5em;
-	letter-spacing: 0.05em;
+	letter-spacing: 0.03em;
 	padding-bottom: 10px;
 	font-family: 'droid_sansregular';
 	padding-top: 10px;
@@ -287,6 +287,7 @@ header {
   margin: 0 !important;
   color: #222;
   clear: both;
+  letter-spacing: 0.03em;
   padding-left: 2.5%;
   width: 95%;
 }
@@ -354,6 +355,7 @@ header {
   padding-bottom: 10px;
   padding-left: 5px;
   color: #222;
+  letter-spacing: 0.03em;
   line-height: 1.4em !important;
   margin: 0 0 0 20px !important;
   border-left: 2px solid #c70024;
@@ -384,6 +386,7 @@ header {
   margin-bottom: 10px;
 	padding-bottom: 10px;
 	width: 95%;
+  letter-spacing: 0.03em;
   margin-left: 2.5%;
 }
 
@@ -427,6 +430,145 @@ footer a:hover {
   line-height: 1.4em;
   margin-left: 2.5%;
 }
+
+/**contact**/
+
+.wpcf7 {
+  margin: 0 auto;
+  background: center;
+  padding-left: 2.5% !important;
+}
+
+.cont_text {
+  border: #777 solid 1px;
+  line-height: 1.4em;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: rgba(67,129,239,0.45) center;
+  color: #000000;
+  font-size: 1em;
+  margin-top: 5px;
+  transition: 0.8s ease-in-out;
+  -webkit-transition: 0.8s ease-in-out;
+  -moz-transition: 0.8s ease-in-out;
+  -o-transition: 0.8s ease-in-out;
+  font-family: 'droid_sansregular';
+}
+
+.cont_email {
+  border: #777 solid 1px;
+  line-height: 1.4em;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: rgba(67,129,239,0.45) center;
+  color: #000000;
+  font-size: 1em;
+  margin-top: 5px;
+  transition: 0.8s ease-in-out;
+  -webkit-transition: 0.8s ease-in-out;
+  -moz-transition: 0.8s ease-in-out;
+  -o-transition: 0.8s ease-in-out;
+  font-family: 'droid_sansregular';
+}
+
+.cont_subj {
+  border: #777 solid 1px;
+  line-height: 1.4em;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: rgba(67,129,239,0.45) center;
+  color: #000000;
+  font-size: 1em;
+  margin-top: 5px;
+  transition: 0.8s ease-in-out;
+  -webkit-transition: 0.8s ease-in-out;
+  -moz-transition: 0.8s ease-in-out;
+  -o-transition: 0.8s ease-in-out;
+  font-family: 'droid_sansregular';
+}
+
+.cont_msg {
+  border: #777 solid 1px;
+  line-height: 1.4em;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: rgba(67,129,239,0.45) center;
+  color: #000000;
+  font-size: 1em;
+  margin-top: 5px;
+  transition: 0.8s ease-in-out;
+  -webkit-transition: 0.8s ease-in-out;
+  -moz-transition: 0.8s ease-in-out;
+  -o-transition: 0.8s ease-in-out;
+  font-family: 'droid_sansregular';
+}
+
+.cont_capt {
+  border: #777 solid 1px;
+  line-height: 1.4em;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: rgba(0,0,0,0.6) center;
+  color: #ffffff;
+  font-size: 1em;
+  margin-top: 5px;
+  transition: 0.8s ease-in-out;
+  -webkit-transition: 0.8s ease-in-out;
+  -moz-transition: 0.8s ease-in-out;
+  -o-transition: 0.8s ease-in-out;
+  font-family: 'droid_sansregular';
+}
+
+.cont_capt_input {
+  border: #777 solid 1px;
+  line-height: 1.4em;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: rgba(67,129,239,0.45) center;
+  color: #000000;
+  font-size: 1em;
+  margin-top: 5px;
+  transition: 0.8s ease-in-out;
+  -webkit-transition: 0.8s ease-in-out;
+  -moz-transition: 0.8s ease-in-out;
+  -o-transition: 0.8s ease-in-out;
+  font-family: 'droid_sansregular';
+}
+
+.cont_subutton {
+  border: #777 solid 1px;
+  line-height: 1.4em;
+  padding: 5 10 5 10px;
+  border-radius: 5px;
+  width: 70px;
+  font-size: 1em;
+  margin-top: 5px;
+  margin-bottom: 40px;
+  text-decoration: none;
+  color: #ffffff;
+  background: rgba(0,0,0,1) center;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  font-family: 'droid_sansregular';
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.85);
+  -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.85);
+  box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.85);
+}
+
+.cont_subutton:hover {
+  border: #333 solid 1px;
+  line-height: 1.4em;
+  border-radius: 5px;
+  color: #eeeeee;
+  background: rgba(0,0,0,0.85) center;
+  font-family: 'droid_sansregular';
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
 /************************************
 		nav 480
 *************************************/
@@ -654,7 +796,7 @@ header {
   -webkit-transition: 0.8s ease-in-out;
   -moz-transition: 0.8s ease-in-out;
   -o-transition: 0.8s ease-in-out;
-  letter-spacing: -1px;
+  letter-spacing: 0.01em;
   }
 
 .featurette-divider {
@@ -671,7 +813,7 @@ header {
   font-size: 2.3em;
   text-decoration: none;
   line-height: 1.5em;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   transition: 1s ease-in-out;
   -webkit-transition: 1s ease-in-out;
   -moz-transition: 1s ease-in-out;
@@ -688,7 +830,7 @@ header {
   font-size: 2.3em;
   text-decoration: none;
   line-height: 1.5em;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   transition: 1s ease-in-out;
   -webkit-transition: 1s ease-in-out;
   -moz-transition: 1s ease-in-out;
@@ -708,7 +850,7 @@ header {
   -webkit-transition: 1s ease-in-out;
   -moz-transition: 1s ease-in-out;
   -o-transition: 1s ease-in-out;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   margin: 30px 0 10px 2.5%;
   font-family: 'droid_sansregular';
   width: 95%;
@@ -755,6 +897,7 @@ header {
   line-height: 1.5em;
   color: #222;
   margin-bottom: 15px;
+  letter-spacing: 0.03em;
   padding-bottom: 10px;
   width: 95%;
   margin-left: 2.5%;
@@ -764,6 +907,7 @@ header {
   padding-bottom: 10px;
   padding-left: 0;
   line-height: 1.5em;
+  letter-spacing: 0.03em;
   width: 100%;
   color: #222;
   margin-left: 2.5%;
@@ -773,6 +917,7 @@ header {
   padding-bottom: 10px;
   color: #222;
   line-height: 1.5em;
+  letter-spacing: 0.03em;
   margin: 0 auto 0 30px;
   border-left: 2px solid #c70024;
 } 
@@ -974,6 +1119,7 @@ header {
   padding-bottom: 10px;
   margin-right: 15%;
   line-height: 1.4em;
+  letter-spacing: 0.03em;
   margin-bottom: 10px;
   color: #222;
   padding-left: 0;
@@ -1013,7 +1159,7 @@ header {
   text-align: left;
   color: #4381ef;
   line-height: 1.6em;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   transition: 0.8s ease-in-out;
   text-decoration: none;
   -webkit-transition: 0.8s ease-in-out;
@@ -1039,7 +1185,7 @@ header {
   -o-transition: 0.8s ease-in-out;
   padding-left: 0 !important;
   margin: 0 auto;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   font-family: 'droid_sansregular';
   padding-top: 60px;
   width: 100%;
@@ -1057,6 +1203,7 @@ header {
   letter-spacing: 0.1em;
   margin: 0 auto !important;
   padding-top: 60px;
+  letter-spacing: 0.05em;
   font-family: 'droid_sansregular';
   background: center transparent;
 }
@@ -1116,6 +1263,7 @@ header {
   font-size: 1.2em;
 	line-height: 1.4em;
   left: 0 !important;
+  letter-spacing: 0.03em;
   margin-left: 0 !important;
 	color: #222;
 }
@@ -1125,9 +1273,18 @@ header {
 	line-height: 1.4em;
   font-size: 1.2em;
   padding-right: 20px;
+  letter-spacing: 0.03em;
   margin-right: 10px;
   color: #222;
 	border-left: 2px solid #c70024;
+}
+
+/**contact**/
+
+.wpcf7 {
+  margin: 0 auto;
+  background: center;
+  padding-left: 0 !important;
 }
 
 /********************************************************

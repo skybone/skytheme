@@ -33,7 +33,6 @@
   <h2 class="cent">Recent Projects</h2>
 
       <?php
-
         $project_count = 0;
             $args = array(
                 'post_type' => 'project',
@@ -84,11 +83,11 @@
   
   <?php $project_count++; endwhile; ?>
 
-		<h2 class="cent2">Contact</h2>
-
+		<div id="ctact"></div><h2 class="cent2">Contact</h2>
 	<p class="cont">
-		Feel free to drop me a line sometime.</p>
-
+		Feel free to drop me a line sometime.
+<br><?php echo do_shortcode( '[contact-form-7 id="21" title="skycontact"]' ); ?>
+</p>
 </div><!--div3-->
 
 <?php include 'footer.php'; ?>
