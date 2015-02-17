@@ -86,6 +86,37 @@
 		<div id="ctact"></div><h2 class="cent2">Contact</h2>
 	<p class="cont">
 		Feel free to drop me a line sometime.
+     <section id="contact" class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Contact Form</h3>
+                    </div>
+                    <div class="panel-body">
+                        <form role="form" data-toggle="validator" name="contactform" method="post" action="mail.php">
+                         
+                            <div class="form-group">
+                                <label for="InputName">Your Name</label>
+                                <input type="text" class="form-control" id="InputName" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="InputEmail">Email address</label>
+                                <input type="email" class="form-control" id="InputEmail" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="InputMessage">Message Here</label>
+                                <textarea cols="20" rows="5" class="form-control" id="InputMessage" name="message" placeholder="Your Message"></textarea>
+                            </div>
+                                <input type="hidden" name="_submit_check" value="1" />
+                                <button type="submit" value="submit" class="btn btn-blue large">Submit</button>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 <br><?php echo do_shortcode( '[contact-form-7 id="21" title="skycontact"]' ); ?>
 </p>
 </div><!--div3-->
