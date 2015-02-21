@@ -22,6 +22,7 @@
 </head>
 
 <?php wp_head(); ?>
+
 <body>
 
 <div id="container">
